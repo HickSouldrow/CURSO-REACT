@@ -1,0 +1,26 @@
+.Botao {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid black;
+  color: var(--cinza);
+  border-radius: 0.375rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Botao:hover {
+  filter: brightness(1.1);
+}
+
+.Botao[tipo="primario"] {
+  background: var(--purpura);
+  border: none;
+}
+
+.Botao[tipo="secundario"] {
+  background: var(--cinza);
+  color: var(--vermelho);
+}
+
+
+
+
